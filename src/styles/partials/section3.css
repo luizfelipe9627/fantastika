@@ -39,3 +39,20 @@
   background-color: #FFFFFF;
   color: #000000;
 }
+
+@media (max-width: 768px) {
+  .section3 {
+    background-image: url("../../assets/img/fundo3-mobile.png");
+    background-position: center;
+    height: 1334px;
+    justify-content: unset;
+    align-items: unset;
+    padding-top: 142px;
+  }
+
+
+  .section3-texto {
+    margin-left: 45px;
+    margin-right: 0;
+  }
+}

@@ -1,3 +1,7 @@
+.redes-sociais-mobile {
+  display: none;
+}
+
 .apoio {
   display: flex;
   align-items: center;
@@ -45,4 +49,84 @@
 
 .navegacao nav ul li:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .redes-sociais-mobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EB4A7B;
+    padding-top: 55px;
+  }
+
+  .nav-redes-sociais-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0 70px;
+  }
+
+  .nav-redes-sociais-mobile ul {
+    display: flex;
+  }
+
+  .navegacao nav ul h1 {
+    font-size: 33px;
+    line-height: 55px;
+  }
+
+  .navegacao nav ul li a {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .nav-redes-sociais-mobile ul li:not(:last-child) {
+    margin-right: 35px;
+  }
+
+  .navegacao {
+    padding: 0 0 100px;
+  }
+
+  .navegacao nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navegacao nav ul:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 70px;
+  }
+
+  .apoio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 44px 128px;
+  }
+
+  .apoio-texto {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .apoio {
+    padding: 44px 30px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 375px) {
+  .apoio {
+    padding: 44px 20px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .apoio div:nth-child(2) {
+    margin-bottom: 15px;
+  }
 }
