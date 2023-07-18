@@ -1,0 +1,55 @@
+.section2 {
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/img/fundo2.png");
+  background-size: cover;
+  height: 770px;
+}
+
+.section2-texto {
+  margin-left: 62px;
+}
+
+.section2-texto h1 {
+  font-size: 49px;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  color: #3A342F;
+}
+
+.section2-texto p {
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  line-height: 42px;
+  color: #3A342F;
+  max-width: 27ch;
+  margin: 15px 0 45px 0;
+}
+
+.section2-texto button {
+  border-radius: 44px;
+  background-color: #3A342F;
+  color: #F4F2F3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 23px 44px;
+  font-size: 27px;
+}
+
+@media (max-width: 769px) {
+  .section2 {
+    background-image: url("../../assets/img/fundo2-mobile.png");
+  }
+
+  .section2-texto {
+    margin-left: 45px;
+  }
+
+  .section2-texto p {
+    max-width: 33ch;
+  }
+
+
+}

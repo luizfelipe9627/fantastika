@@ -1,0 +1,40 @@
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/img/fundo1.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.section1-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1-texto p {
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 51px;
+  line-height: 59px;
+  color: #FFFFFF;
+  max-width: 17ch;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    background-image: url("../../assets/img/fundo1-mobile.png");
+    height: 100vh;
+    padding: 95px 45px;
+  }
+
+  .section1-texto p {
+    font-size: 69px;
+    line-height: 81px;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,41 @@
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-image: url("../../assets/img/fundo3.png");
+  background-size: cover;
+  height: 770px;
+}
+
+.section3-texto {
+  margin-right: 62px;
+}
+
+.section3-texto h1 {
+  font-size: 49px;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  color: #FFFFFF;
+  max-width: 10ch;
+}
+
+.section3-texto p {
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  line-height: 42px;
+  color: #FFFFFF;
+  max-width: 27ch;
+  margin: 15px 0 45px 0;
+}
+
+.section3-texto button {
+  font-family: "Roboto", sans-serif;
+  padding: 23px 44px;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35px;
+  border-radius: 44px;
+  background-color: #FFFFFF;
+  color: #000000;
+}

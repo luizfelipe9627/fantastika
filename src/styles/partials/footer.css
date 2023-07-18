@@ -1,0 +1,48 @@
+.apoio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 228px;
+  background-color: #FFFFFF;
+}
+
+.apoio-texto p {
+  font-family: "Roboto Serif", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 55px;
+  color: #FD6A9A;
+}
+
+.navegacao {
+  background-color: #EB4A7B;
+  padding: 85px 100px 72px;
+  color: #FFFFFF;
+}
+
+.navegacao nav {
+  display: flex;
+}
+
+.navegacao nav ul:not(:last-child) {
+  margin-right: 70px;
+}
+
+.navegacao nav ul h1 {
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.navegacao nav ul li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.navegacao nav ul li:hover {
+  text-decoration: underline;
+}
