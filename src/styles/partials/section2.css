@@ -40,16 +40,19 @@
 
 @media (max-width: 769px) {
   .section2 {
+    display: block;
     background-image: url("../../assets/img/fundo2-mobile.png");
+    background-position: center;
+    height: 1334px;
   }
 
   .section2-texto {
     margin-left: 45px;
-    padding-bottom: 180px;
+    padding-top: 180px;
   }
 
   .section2-texto p {
-    max-width: 33ch;
+    max-width: 33.3ch;
   }
 
 
