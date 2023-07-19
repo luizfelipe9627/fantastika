@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   background-image: url("../../assets/img/fundo2.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 770px;
 }
 
@@ -14,7 +16,7 @@
   font-size: 49px;
   font-family: "Roboto Serif", sans-serif;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 57px;
   color: #3A342F;
 }
 

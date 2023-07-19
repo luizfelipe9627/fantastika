@@ -24,8 +24,10 @@
 .logo h1 {
   font-family: 'Roboto Serif', sans-serif;
   letter-spacing: 0.32px;
+  line-height: 17.57px;
   font-size: 15px;
   color: #FFFFFF;
+  font-weight: 700;
 }
 
 .nav-redes-sociais {
@@ -75,7 +77,7 @@
 
 @media (max-width: 550px) {
   .header {
-    padding: 35px 25px;
+    padding: 35px 45px;
   }
 
   .logo img {

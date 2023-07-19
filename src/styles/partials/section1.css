@@ -1,43 +1,54 @@
 .section1 {
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/img/fundo1.png");
-  background-size: cover;
-  background-position: center;
   height: 700px;
+  background: linear-gradient(278.52deg, #E64979 24.07%, rgba(240, 81, 130, 0) 421.56%);
+}
+
+.section1-fundo {
+  background-image: url("../../assets/svg/cachorro.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
 .section1-texto {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .section1-texto p {
   font-family: "Roboto Serif", sans-serif;
   font-size: 51px;
-  line-height: 59px;
+  line-height: 59.72px;
   color: #FFFFFF;
   max-width: 17ch;
   text-align: center;
-  margin-bottom: 25px;
+  margin: 110px 0 20px 0;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
   .section1 {
     background-image: url("../../assets/img/fundo1-mobile.png");
+    background-position: center;
     height: 1168px;
-    padding: 95px 45px;
   }
 
-  .section1-texto {
-    justify-content: unset;
+  .section1-fundo {
+    background-image: none;
   }
 
   .section1-texto p {
+    font-size: 69px;
     line-height: 81px;
-    margin-bottom: 70px;
+    margin: 100px 0 70px 0;
+  }
+
+  .section1-texto img {
+    width: 203px;
+    height: 203px;
   }
 }
