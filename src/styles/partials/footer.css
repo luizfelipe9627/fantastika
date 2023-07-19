@@ -1,3 +1,8 @@
+footer {
+  background-color: #EB4A7B;
+
+}
+
 .redes-sociais-mobile {
   display: none;
 }
@@ -20,7 +25,6 @@
 }
 
 .navegacao {
-  background-color: #EB4A7B;
   padding: 85px 100px 72px;
   color: #FFFFFF;
 }
