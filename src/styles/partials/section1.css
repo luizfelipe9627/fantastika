@@ -42,13 +42,19 @@
   }
 
   .section1-texto p {
-    font-size: 69px;
-    line-height: 81px;
-    margin: 100px 45px 70px;
+    font-size: 48px;
+    line-height: 80.8px;
+    margin: 100px 25px 70px;
   }
 
   .section1-texto img {
     width: 203px;
     height: 203px;
+  }
+}
+
+@media (max-width: 350px) {
+  .section1-texto p {
+    margin: 100px 10px 70px;
   }
 }

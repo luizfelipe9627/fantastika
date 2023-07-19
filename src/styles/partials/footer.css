@@ -134,3 +134,9 @@ footer {
     margin-bottom: 15px;
   }
 }
+
+@media (min-width: 770px) and (max-width: 1000px) {
+  .apoio {
+    padding: 44px 180px;
+  }
+}
