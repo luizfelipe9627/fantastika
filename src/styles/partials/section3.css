@@ -49,10 +49,17 @@
     align-items: unset;
     padding-top: 142px;
   }
-
-
+  
   .section3-texto {
     margin-left: 45px;
     margin-right: 0;
+  }
+
+  .section3-texto h1 {
+    max-width: initial;
+  }
+
+  .section3-texto p {
+    max-width: 33.3ch;
   }
 }
