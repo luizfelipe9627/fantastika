@@ -1,4 +1,4 @@
-# Fantastika - Vai na Web
+# Fantastika
 
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
@@ -11,7 +11,7 @@ O Fantastika é um site de uma clinica canina.
 
 Esse desafio foi passado pelo Vai na Web para aplicar os conhecimentos em HTML5, CSS3 e Responsividade.
 
-### <a href="https://luizfelipe9627-fantastika-vnw.netlify.app">Acesse o site</a>
+### <a href="https://luizfelipe9627-fantastika.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
