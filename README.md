@@ -9,7 +9,7 @@ O Fantastika é um site de uma clinica canina.
 
 ## 📑 Observação
 
-Esse desafio foi passado pelo Vai na Web para aplicar os conhecimentos em HTML5, CSS3 e Respondividade.
+Esse desafio foi passado pelo Vai na Web para aplicar os conhecimentos em HTML5, CSS3 e Responsividade.
 
 ### <a href="https://luizfelipe9627-fantastika-vnw.netlify.app">Acesse o site</a>
 
